@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+
+        android:layout_alignBottom="@+id/button10"
+        android:layout_marginBottom="120dp"
+        android:textSize="25dp"
+        android:text="beverages"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Juice"
+        android:textSize="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="110dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:text="thumpsup"
+        android:textSize="25dp"
+
+        android:layout_alignTop="@+id/button10"
+        android:layout_marginTop="100dp"
+
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+
+
+        android:layout_alignTop="@+id/button11"
+        android:layout_marginTop="100dp"
+        android:text="buttermilk"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

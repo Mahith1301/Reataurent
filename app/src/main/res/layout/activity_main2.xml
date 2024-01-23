@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".mainactivity2">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_marginBottom="120dp"
+        android:textSize="25dp"
+        android:text="VEG OPTIONS"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:text="FRIED RICE"
+        android:textSize="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="110dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:text="VEG BIRYANI"
+        android:textSize="25dp"
+
+        android:layout_alignTop="@+id/button4"
+        android:layout_marginTop="100dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_alignTop="@+id/button5"
+        android:layout_marginTop="100dp"
+        android:text="NAAN + PANEER"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
